@@ -9,15 +9,19 @@ Linux OS
 ## Installation
 
 For installation please follow the following steps
-### 1. cd lunar_mining
-### 2. mkdir build
-### 3. cd build
-### 4. cmake ../
-### 5. make
+#### 1. cd lunar_mining
+#### 2. mkdir build
+#### 3. cd build
+#### 4. cmake ../
+#### 5. make
 
 ## Usage
 
-Form **build folder** , run
+Form 
+
+**build folder** 
+run
+
 **./LunarMiningOperation 2>&1 | tee log.csv**
 
 ## Configuration
@@ -25,12 +29,19 @@ Form **build folder** , run
 Configuration parameters are located in **mining.cfg** file
 
 #number of trucks
+
 **TRUCKS=11**
+
 #number of unload-stations
+
 **UNLOAD_STATIONS=3**
+
 #process speed up by
+
 **PROCESS_SPEED_UP_BY=70**
+
 #simulation run time in hours
+
 **SIMULATION_TIME_HOURS=72**
 
 Please fill free to adjust the parameters
