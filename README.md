@@ -7,6 +7,8 @@ C++ 20 or higher
 Linux OS
 
 ## Installation
+Get the source code
+#### git clone https://github.com/manesh001/lunar_mining.git
 
 For installation please follow the following steps
 #### 1. cd lunar_mining
